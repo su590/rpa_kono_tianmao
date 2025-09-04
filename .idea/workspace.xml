@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4cb187b3-4123-4d67-a9c8-ac001c0afe81" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rpa.kono.tianmao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/alud_account.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/jlyq_account.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/sycm_account.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/wph_account.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/plat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/error/base_error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/error/login_error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rds/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rds/autopage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rds/flag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rds/semaphore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/requirements.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schedule/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schedule/disk_schedule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schedule/kono_tianmao_schedule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schedule/kono_wph_schedule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schedule/scheduler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spider/alud/AludLogin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spider/alud/AludSession.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spider/alud/account_statement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spider/bilibili/huahuo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spider/jlyq/bidding_promotion_universal_advertising.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spider/jlyq/jlyq_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spider/jlyq/jlyq_session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spider/sycm/SycmLogin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spider/sycm/SycmSession.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spider/sycm/deal_refund.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spider/sycm/ud_effect_placement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spider/wph/WphGysLogin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spider/wph/WphTools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spider/wph/commodity_rank.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spider/wph/wph_time_range_export.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sql/ktm_message_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/cryptotools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/dsptools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/feishutools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/logintools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/logtools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/osstools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/pagetools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/smstools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/sqltools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/tabtools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/trycatchtools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/uploadtools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/valtools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_sync_header_feishu.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2zwdPnHquP40pfF3L4Ty9t5kgM6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.SycmLogin.executor": "Run",
+    "Python.WphGysLogin.executor": "Run",
+    "Python.__init__.executor": "Run",
+    "Python.account_statement.executor": "Run",
+    "Python.bidding_promotion_universal_advertising.executor": "Run",
+    "Python.huahuo.executor": "Run",
+    "Python.kono_tianmao_schedule.executor": "Run",
+    "Python.kono_wph_schedule.executor": "Run",
+    "Python.scheduler.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test_feishu.executor": "Run",
+    "Python.test_sync_header_feishu.executor": "Run",
+    "Python.ud_effect_placement.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/python_workspace/rpa.kono.tianmao/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python_workspace\rpa.kono.tianmao\src" />
+      <recent name="D:\python_workspace\rpa.kono.tianmao\src\spider\wph" />
+      <recent name="D:\python_workspace\rpa.kono.tianmao\src\spider\sycm" />
+      <recent name="D:\python_workspace\rpa.kono.tianmao\src\utils" />
+      <recent name="D:\python_workspace\rpa.kono.tianmao\src\spider\alud" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python_workspace\rpa.kono.tianmao\src\spider\wph" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.scheduler">
+    <configuration name="kono_tianmao_schedule" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rpa.kono.tianmao" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/schedule" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/schedule/kono_tianmao_schedule.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="kono_wph_schedule" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rpa.kono.tianmao" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/schedule" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/schedule/kono_wph_schedule.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scheduler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rpa.kono.tianmao" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/schedule" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/schedule/scheduler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rpa.kono.tianmao" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_sync_header_feishu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rpa.kono.tianmao" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_sync_header_feishu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.scheduler" />
+        <item itemvalue="Python.kono_tianmao_schedule" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.kono_wph_schedule" />
+        <item itemvalue="Python.test_sync_header_feishu" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.159" />
+        <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="项目级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="4cb187b3-4123-4d67-a9c8-ac001c0afe81" name="更改" comment="" />
+      <created>1752646047986</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752646047986</updated>
+      <workItem from="1752646049118" duration="52127000" />
+      <workItem from="1753626294016" duration="12900000" />
+      <workItem from="1754290682794" duration="47367000" />
+      <workItem from="1755256184694" duration="6427000" />
+      <workItem from="1756086335607" duration="5301000" />
+      <workItem from="1756791011345" duration="3560000" />
+      <workItem from="1756802746195" duration="2001000" />
+      <workItem from="1756883203626" duration="649000" />
+      <workItem from="1756953942689" duration="1763000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/rpa_kono_tianmao$test.coverage" NAME="test 覆盖结果" MODIFIED="1755486610177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/rpa_kono_tianmao$kono_wph_schedule.coverage" NAME="kono_wph_schedule 覆盖结果" MODIFIED="1755480829464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/schedule" />
+    <SUITE FILE_PATH="coverage/rpa_kono_tianmao$test_feishu.coverage" NAME="test_feishu 覆盖结果" MODIFIED="1754654227396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/rpa_kono_tianmao$ud_effect_placement.coverage" NAME="ud_effect_placement 覆盖结果" MODIFIED="1752715439670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/spider/sycm" />
+    <SUITE FILE_PATH="coverage/rpa_kono_tianmao$__init__.coverage" NAME="__init__ 覆盖结果" MODIFIED="1752653056898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/rds" />
+    <SUITE FILE_PATH="coverage/rpa_kono_tianmao$account_statement.coverage" NAME="account_statement 覆盖结果" MODIFIED="1752733424576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/spider/alud" />
+    <SUITE FILE_PATH="coverage/rpa_kono_tianmao$huahuo.coverage" NAME="huahuo 覆盖结果" MODIFIED="1752741420427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/spider/bilibili" />
+    <SUITE FILE_PATH="coverage/rpa_kono_tianmao$test_sync_header_feishu.coverage" NAME="test_sync_header_feishu 覆盖结果" MODIFIED="1754716932232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rpa_kono_tianmao$bidding_promotion_universal_advertising.coverage" NAME="bidding_promotion_universal_advertising 覆盖结果" MODIFIED="1752656887964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/spider/jlyq" />
+    <SUITE FILE_PATH="coverage/rpa_kono_tianmao$kono_tianmao_schedule.coverage" NAME="kono_tianmao_schedule 覆盖结果" MODIFIED="1756800030425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/schedule" />
+    <SUITE FILE_PATH="coverage/rpa_kono_tianmao$scheduler.coverage" NAME="scheduler 覆盖结果" MODIFIED="1756954039817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/schedule" />
+    <SUITE FILE_PATH="coverage/rpa_kono_tianmao$WphGysLogin.coverage" NAME="WphGysLogin 覆盖结果" MODIFIED="1754621831377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/spider/wph" />
+    <SUITE FILE_PATH="coverage/rpa_kono_tianmao$SycmLogin.coverage" NAME="SycmLogin 覆盖结果" MODIFIED="1752715758242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/spider/sycm" />
+  </component>
+</project>

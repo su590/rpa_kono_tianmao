@@ -1,0 +1,19 @@
+redis:
+  host: "10.1.130.103"
+  db: 0
+  password:
+  port: 30937
+
+drissionpage:
+  user_data_path: "D:/ktm/chrome/userdata"
+  download_path: "D:/ktm/chrome/download"
+
+common:
+  download_path: "D:/ktm/download"
+  log_path: "D:/ktm/log"
+  cache_download_path: "D:/ktm/cache/download"
+  cache_log_path: "D:/ktm/cache/log"
+
+ym:
+  desc: "云码"
+  token: "Elmyb8Ihw7US6w_LbpF8m2uPvNT6HTo6egeKXHkUw4k"
